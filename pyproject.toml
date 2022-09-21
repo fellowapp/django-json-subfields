@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "django-json-subfields"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Cormier-Iijima <samuel@cormier-iijima.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+black = "^22.8.0"
+pytest-django = "^4.5.2"
+pymysql = "^1.0.2"
+django-stubs = "^1.12.0"
+mypy = "^0.971"
+ipdb = "^0.13.9"
+ipython = "^8.5.0"
+cryptography = "^38.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.2.0rc1"]
+build-backend = "poetry.core.masonry.api"
